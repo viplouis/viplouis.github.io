@@ -1,8 +1,0 @@
-1、滚动监听
-   $(document).scroll(()=>{
-	$(window).scrollTop()//当前滚动条距离顶部滚动了多远
-	$("").offset().top/left; //元素距离页面顶部和左边有多远
-   })
-
-项目：每一块都必须有滚动监听
-http://demo.cssmoban.com/cssthemes5/cpts_1511_cgc/index.html# body{overflow:hidden}
